@@ -48,6 +48,8 @@ export const PeopleFilters = () => {
       query: null,
       sex: null,
       centuries: null,
+      sort: null,
+      order: null,
     });
 
     setSearchParams(newParams);
